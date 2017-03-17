@@ -3,7 +3,7 @@ const mongo = require('./mongo-db');
 const oracle = require('./oracle-db');
 const server = require('./server');
 
-module.export = {
+module.exports = {
   amqp,
   mongo,
   oracle,
