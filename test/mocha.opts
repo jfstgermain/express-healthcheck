@@ -1,0 +1,2 @@
+--require test/test-include
+--ui bdd

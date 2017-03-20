@@ -2,7 +2,8 @@ const Promise = require('bluebird');
 const prettyHrtime = require('pretty-hrtime');
 const os = require('os');
 
-module.exports.check = () =>
+module.exports.check = () => {
+  console.error('dfdfdfdfdfdf');
   Promise.resolve({
     online: true,
     os: {
@@ -25,3 +26,4 @@ module.exports.check = () =>
     uptime: prettyHrtime(process.uptime()),
     status: 'ok',
   });
+};

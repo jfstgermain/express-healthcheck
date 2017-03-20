@@ -8,5 +8,9 @@
     }}],
     "no-underscore-dangle": ["error", { "allow": ["foo_", "_bar"] }],
     "no-param-reassign": 0
+  },
+  "env": {
+    "node": true,
+    "mocha": true
   }
 }

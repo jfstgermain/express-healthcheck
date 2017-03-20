@@ -1,3 +1,0 @@
---require chai sinon sinon-chai
---ui bdd
-test/**/*.js
